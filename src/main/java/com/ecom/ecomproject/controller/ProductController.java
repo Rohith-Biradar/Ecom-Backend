@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping("/api")
 @CrossOrigin(origins = "https://ecom-frontend-ten-beige.vercel.app")
 public class ProductController {
@@ -88,4 +88,5 @@ public class ProductController {
     }
 
 }
+
 
