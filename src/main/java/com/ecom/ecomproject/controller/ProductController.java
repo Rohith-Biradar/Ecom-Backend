@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import com.ecom.ecomproject.model.Product;
 import com.ecom.ecomproject.service.ProductService;
-
+import org.springframework.beans.factory.annotation.Autowired;
 import java.io.IOException;
 import java.util.List;
 
@@ -77,3 +77,4 @@ public class ProductController {
         return new ResponseEntity<>(products, HttpStatus.OK);
     }
 }
+
