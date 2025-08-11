@@ -11,7 +11,7 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")
+                registry.addMapping("https://ecom-frontend-ten-beige.vercel.app/")
                         // Replace with your Vercel frontend URL
                         .allowedOrigins("https://ecom-frontend-ten-beige.vercel.app") 
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
