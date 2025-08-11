@@ -16,7 +16,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/api")
-@CrossOrigin
+@CrossOrigin(origins = "https://ecom-frontend-ten-beige.vercel.app")
 public class ProductController {
     @Autowired
     ProductService service;
@@ -88,3 +88,4 @@ public class ProductController {
     }
 
 }
+
